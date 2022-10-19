@@ -1,0 +1,153 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+nav {
+    width: 100%;
+    padding: 15px;
+    background-color: #146938;
+    float: left;
+}
+
+nav h1 {
+    float: left;
+    display: inline;
+}
+
+nav h1 a img {
+    width: 100px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    float: left;
+    padding: 35px 15px;
+}
+
+nav ul li a {
+    background-color: rgb(32, 32, 192);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    /* margin: 15px; */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgb(69, 248, 218);
+    color: black;
+    background-color: #0d5a8b;
+    width: 375px;
+}
+
+header {
+    background-color: #068545;
+}
+
+header img {
+    width: 100%;
+    border: 5px solid #043474;
+}
+
+.clearfix {
+    overflow: auto;
+    font-family: Sky;
+    font-size: medium;
+    
+}
+main{
+    background-color: #11c99b;
+}
+ main img{
+    border: 5px solid #043474;
+ }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*Grade de Colunas*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+    
+}
+
+.center {
+    text-align: center;
+}
+
+
+footer {
+    background-color: #077894;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+button{
+    text-align: center;
+    background-color: #9cdaff;
+    border-radius: 5px;
+    width: 40%;
+    height: 30px;
+    font-family: Sky;
+    font-size: 100%;
+}
+
+#delivery{
+    text-align: center;
+    background-color: #9cdaff;
+    border-radius: 30px;
+    width: 10%;
+    height: 30px;
+    font-size: 100%;
+}
+
+#ll{
+    list-style: none;
+    display: inline;
+    float: left;
+    padding: 35px 15px;
+    color: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
